@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  os:
+    image: ubuntu:22.04
+    tty: true
+    build: .
+    environment:
+      - VAR1=abc
+      - VAR2=def
+
+  
+
+
