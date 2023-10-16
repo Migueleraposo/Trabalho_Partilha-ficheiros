@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  os:
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    environment:
+      - VAR1=abc
+      - VAR2=def
+
+  
+
+
